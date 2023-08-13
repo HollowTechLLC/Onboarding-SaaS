@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HollowTechLLC/Onboarding-SaaS.git#d65c4460952c95d87681fd6687b19463d704987f"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "C.W.Holloway III",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HollowTechLLC/Onboarding-SaaS/issues"
+  },
+  "homepage": "https://github.com/HollowTechLLC/Onboarding-SaaS/tree/d65c4460952c95d87681fd6687b19463d704987f#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
