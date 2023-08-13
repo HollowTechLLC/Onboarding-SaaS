@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.branding a {
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.navigation a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #555;
+}
+
+.userProfile {
+  position: relative;
+}
+
+.profileImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 1;
+}
+
+.main {
+  padding: 20px;
+}
